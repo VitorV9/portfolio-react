@@ -1,14 +1,15 @@
 import Titulo from '../../components/Titulo'
+import Paragrafo from '../../components/Paragrafo'
 
 const Sobre = () => (
   <section>
-    <Titulo>Sobre mim</Titulo>
-    <p>
+    <Titulo fontSize={16}>Sobre mim</Titulo>
+    <Paragrafo>
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae minus
       velit tempore quae magni, excepturi accusamus error blanditiis voluptatem
       repellat fugiat sed enim quia id dolor quas exercitationem doloremque
       debitis.
-    </p>
+    </Paragrafo>
   </section>
 )
 
